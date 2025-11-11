@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bully",
+  "version": "1.0",
+  "description": "Ideal for bullies.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://*.gladiatus.gameforge.com/game/index.php?mod=arena*"],
+      "js": ["content.js"]
+    }
+  ]
+}
